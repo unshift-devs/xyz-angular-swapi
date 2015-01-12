@@ -1,0 +1,9 @@
+node_modules/
+
+.DS_Store
+Thumbs.db
+.tern-port
+coverage/
+npm-debug.log
+bower_components/
+node_modules/

@@ -1,0 +1,11 @@
+{
+  "libs": [
+    "browser",
+    "ecma5",
+    "lodash"
+  ],
+  "loadEagerly": [],
+  "plugins": {
+    "angular": "./"
+  }
+}

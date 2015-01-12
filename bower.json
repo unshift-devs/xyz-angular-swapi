@@ -1,0 +1,30 @@
+{
+  "name": "angular-swapi",
+  "version": "0.1.0",
+  "authors": [
+    "Matteo Ronchi <matteo@unshift.xyz>",
+    "Fabio Biondi <fabio@unshift.xyz>"
+  ],
+  "description": "AngularJS wrapper to consume swapi.co API",
+  "main": "dist/angular-swapi.min.js",
+  "keywords": [
+    "angularjs",
+    "star",
+    "wars",
+    "swapi"
+  ],
+  "license": "MIT",
+  "homepage": "code.unshift.xyz/angular-swapi",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "coverage",
+    "test",
+    "npm-debug.log"
+  ],
+  "devDependencies": {
+    "angular": "~1.3.8"
+  }
+}
