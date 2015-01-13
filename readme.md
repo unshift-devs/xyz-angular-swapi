@@ -8,6 +8,8 @@ The `xyz.angular.swapi` modules comes with one angular constant `swapiEndpoints`
 
 To use the service just import the module in your AngularJS application and inject the `swapiService` whre required.
 
+In your javascript:
+
 ```javascript
 // include the module
 angular.module('myStarWarsApp', ['xyz.angular.swapi']).
@@ -23,6 +25,8 @@ controller('jediController', ['swapiService',
 ])
 ```
 
+Inside your view template:
+
 ```html
 <ul>
   <li>Name: {{luke.name}}</li>
@@ -31,7 +35,25 @@ controller('jediController', ['swapiService',
 </ul>
 ```
 
-For any end-point exposed by **swapi.com** 3 methods are available: 
+## Installation
+
+The module can be installed from **bower**:
+
+```
+$ bower install xyz-angular-swapi --save
+```
+
+from **npm**:
+
+```
+$ npm install xyz-angular-swapi --save
+```
+
+or downloading directly the [minified version](https://github.com/unshift-devs/xyz-angular-swapi/blob/master/dist/xyz-angular-swapi.min.js).
+
+## Service API
+
+For every end-point exposed by **swapi.com** 3 methods are available: 
 
 * get specific resource by type and id
 * get all resources for a given type
@@ -74,6 +96,11 @@ Complete API, all methods return a promise.
 * `vehicle(id)` return one vehicle
 * `vehicles([page])` return all vehicles paginated. If no page is passed defaults to 1.
 * `vehicleSchema()` return the JSON Schema for the `vehicle` resource
+
+### additional methods
+
+* `resources()` return the available REST resources
+* `resource(url)` load a valid REST resource url, not only from **swapy.com**
 
 ## Work in progress
 
