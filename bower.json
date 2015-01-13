@@ -1,12 +1,12 @@
 {
-  "name": "angular-swapi",
+  "name": "xyz-angular-swapi",
   "version": "0.1.0",
   "authors": [
     "Matteo Ronchi <matteo@unshift.xyz>",
     "Fabio Biondi <fabio@unshift.xyz>"
   ],
   "description": "AngularJS wrapper to consume swapi.co API",
-  "main": "dist/angular-swapi.min.js",
+  "main": "dist/xyz-angular-swapi.min.js",
   "keywords": [
     "angularjs",
     "star",
@@ -24,7 +24,7 @@
     "test",
     "npm-debug.log"
   ],
-  "devDependencies": {
-    "angular": "~1.3.8"
+  "dependencies": {
+    "angular": ">=1.3.1"
   }
 }
